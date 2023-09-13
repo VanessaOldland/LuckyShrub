@@ -1,0 +1,142 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-color:rgb(183, 200, 197)
+}
+
+header > img{
+    display:block;
+    margin-top:2rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+nav{
+    margin: 1em auto 4em auto;
+    max-width:800px;
+}
+
+nav ul {
+    list-style:none;
+    text-align:center;
+    margin: 2em 2em 2em 2em;
+    border: 2em 2em 2em 2em;
+    border-color:white;
+    border-style:solid;
+    border-radius: 0.5rem;
+    background-color:rgb(203, 220, 217);
+}
+
+nav li{
+    display:inline-block;
+    padding: 1em 1em 1em 1em;
+}
+
+nav a{
+    color:grey;
+    font-size:1em;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:rgb(0, 117, 94);
+    text-decoration:underline;
+}
+
+section{
+    display:flex;
+    flex-wrap:wrap;
+    margin:2em;
+    justify-content:center;
+}
+
+article{
+    flex:1;
+    padding:1em 1em 1em 1em;
+    margin:1em auto 1em auto;
+    border-color:grey;
+    border-style:solid;
+    max-width:700px;
+}
+
+h1{
+    color:rgb(0, 117, 94);
+    font-size:2em;
+    text-align:center;
+}
+
+article p{
+    color:grey;
+    text-align:center;
+    background-color:whitesmoke;
+    margin:1em;
+    padding:1em;
+}
+
+h2{
+    font-size:2em;
+    text-align:center;
+    padding:1em;
+}
+
+section div{
+    flex:1;
+    font-size:.75em;
+    text-align:center;
+    background-color:whitesmoke;
+    margin:2em;
+    padding:1em;
+    color:rgb(0, 117, 94);
+    max-width:200px;
+}
+
+p a{
+    color:grey;
+    font-size:1em;
+    text-decoration:none;
+    background-color:rgb(203, 220, 217);
+}
+
+p a:hover{
+    color:rgb(0, 117, 94);
+    font-size:1em;
+    text-decoration:underline;
+}
+
+.plant{
+    margin:1em;
+}
+
+.plant img{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    margin-bottom:1em;
+}
+
+.plant:hover{
+    transform:scale(110%);
+    box-shadow: .5em .5em .5em grey;
+}
+
+footer{
+    display:flex;
+    color:rgb(0, 117, 94);
+    margin:1em 1em;
+}
+
+footer div{
+    flex:1;
+}
+
+.line{
+    height: 1px;
+    background: rgb(0, 117, 94);
+  }
+
+footer p{
+    text-align:right;
+}
